@@ -1,9 +1,12 @@
-
+html {
+	width: 100%;
+}
 .slider {
 
-	height: 830px;
+	height: 790px;
 	background-repeat: no-repeat;
 	width: 100%;
+	background-size: 100% 100%;
 
 }
 
@@ -33,6 +36,7 @@
 ul {
 
 	display: flex;
+	flex-wrap: wrap;
 	list-style-type: none;
 	margin: 0;
 	padding: 0;
@@ -112,6 +116,7 @@ ul {
     letter-spacing: .07em;
     height: 140px;
     padding-top: 30px;
+    margin-bottom: 120px;
     font-family: 'Hammersmith One';
 
 }
@@ -122,4 +127,97 @@ ul {
     background: #000;
     color: #fff;
 
+}
+
+.first-picture {
+
+	display: grid;
+	grid-template-columns: 1fr 2fr;
+}
+
+.model-picture {
+
+	width: 600px;
+	height: 300px;
+	margin-left: 40px;
+
+
+}
+
+.sneakers-picture {
+	padding-right: 60px;
+}
+
+.container-title {
+
+	font-family: 'Hammersmith One';
+	font-size: 26px;
+	letter-spacing: .07em;
+	padding-top: 5px;
+	font-weight: 600;
+}
+
+.black-stripe {
+
+	width: 69px;
+	border: 6px solid black;
+}
+
+.semi-title {
+
+	font-family: 'Hammersmith One';
+	font-size: 17px;
+	letter-spacing: .07em;
+	text-transform: uppercase;
+
+}
+
+.centered {
+	text-align: center;
+	margin-top: 40px;
+}
+
+
+.footer {
+
+	background-color: black;
+	margin-top: 20px;
+	color: white;
+	padding-top: 150px;
+}
+
+.news-subscription {
+
+	font-family: 'Aldrich';
+	text-transform: uppercase;
+	letter-spacing: .09em;
+	font-size: 23px;
+
+}
+
+.news-title {
+
+	font-family: 'Aldrich';
+	text-transform: uppercase;
+	letter-spacing: .09em;
+	font-size: 23px;
+
+}
+
+.footer-containers {
+
+	display: grid;
+	grid-template-columns: 1fr 2fr;
+
+}
+
+.subscription {
+
+	background-color: black;
+	border: 0;
+	border-bottom: 1px solid gray;
+	font-size: 17px;
+	margin-top: 15px;
+	padding-bottom: 7px;
+	margin-bottom: 80px;
 }
