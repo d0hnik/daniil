@@ -35,6 +35,7 @@ a:hover {
 .page-header {
 
 	background-color: black;
+	width: 100%;
 }
 
 ul {
@@ -185,7 +186,7 @@ ul {
   .item {
     width: 365px;
   }
-  .items:nth-child(2) {
+  .item:nth-child(2) {
   	margin-left: 100px;
   }
 }
