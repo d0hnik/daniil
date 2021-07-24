@@ -186,7 +186,7 @@ ul {
   .item {
     width: 365px;
   }
-  .item:nth-child(2) {
+  .item:nth-child(even) {
   	margin-left: 100px;
   }
 }
