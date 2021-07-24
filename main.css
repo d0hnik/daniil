@@ -2,6 +2,10 @@ html,body {
 	height: 100%;
 }
 
+html {
+	background-color: #000000;
+}
+
 .slider {
 
 	height: 790px;
@@ -49,6 +53,11 @@ ul {
 	justify-content: center;
 }
 
+.header {
+
+	background-color: black;
+
+}
 .header-menu-item {
 	text-decoration: none;
 	color: white;
@@ -134,6 +143,9 @@ ul {
 
 }
 
+.main {
+	background-color: white;
+}
 .first-picture {
 
 	display: grid;
